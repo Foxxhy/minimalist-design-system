@@ -1,3 +1,4 @@
+import Accordion from './css/accordion/accordion'
 import './css/index.css'
 import './App.css'
 
@@ -299,7 +300,7 @@ function App() {
 
           <FormGroup>
             <Label htmlFor="gender">Genre</Label>
-            <Select 
+            <Select
               id="gender"
               options={["Masculin", "Féminin", "Non spécifié"]}
             />
@@ -315,23 +316,27 @@ function App() {
           </FormGroup>
         </Form>
         <div style={{ display: "flex", gap: "16px", padding: "32px" }}>
-      {/* Example 1: Basic Card */}
-      <Card
-        title="Card Title"
-        content="This is the content of the card. It provides an example of how text or other elements look inside."
-      />
-
-      {/* Example 2: Card with Footer */}
-      <Card
-        title="Interactive Card"
-        content="This card includes a footer with actions like buttons."
-        footer={
-          <>
-            <button className="btn btn-primary">Accept</button>
-            <button className="btn btn-outline">Decline</button>
-          </>
-        }
+          {/* Example 1: Basic Card */}
+          <Card
+            title="Card Title"
+            content="This is the content of the card. It provides an example of how text or other elements look inside."
           />
+
+          {/* Example 2: Card with Footer */}
+          <Card
+            title="Interactive Card"
+            content="This card includes a footer with actions like buttons."
+            footer={
+              <>
+                <button className="btn btn-primary">Accept</button>
+                <button className="btn btn-outline">Decline</button>
+              </>
+            }
+          />
+          <div style={{ padding: "32px" }}>
+            <h1>Exemple d'Accordéon</h1>
+            <Accordion title="Section 1">test</Accordion>
+          </div>
         </div>
       </main>
     </>
