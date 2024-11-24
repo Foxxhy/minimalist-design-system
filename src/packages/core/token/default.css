@@ -1,0 +1,88 @@
+:root {
+    --color-primary-50: #f2f7fb;
+    --color-primary-100: #dbeaf6;
+    --color-primary-200: #b7d6ed;
+    --color-primary-300: #8cbde2;
+    --color-primary-400: #61a4d6;
+    --color-primary-500: #3f8cc7;
+    --color-primary-600: #336f9f;
+    --color-primary-700: #27557a;
+    --color-primary-800: #1c3e5a;
+    --color-primary-900: #122b3e;
+    /* --color-primary-50: #f1faf4;
+    --color-primary-100: #e0f4e5;
+    --color-primary-200: #bde5c8;
+    --color-primary-300: #92d5a8;
+    --color-primary-400: #67c588;
+    --color-primary-500: #4caf68;
+    --color-primary-600: #3e9455;
+    --color-primary-700: #317b44;
+    --color-primary-800: #245f35;
+    --color-primary-900: #1a4726; */
+    /* --color-primary-50: #f7f6f1;
+    --color-primary-100: #eae7d7;
+    --color-primary-200: #d8d2b8;
+    --color-primary-300: #c5bd98;
+    --color-primary-400: #b3a979;
+    --color-primary-500: #a19559;
+    --color-primary-600: #8a7f4c;
+    --color-primary-700: #736a3f;
+    --color-primary-800: #5c5432;
+    --color-primary-900: #453f25; */
+
+    --color-neutral-0: #ffffff;
+    --color-neutral-50: #fafafa;
+    --color-neutral-100: #f5f5f5;
+    --color-neutral-200: #eeeeee;
+    --color-neutral-300: #e0e0e0;
+    --color-neutral-500: #9e9e9e;
+    --color-neutral-700: #616161;
+    --color-neutral-900: #212121;
+
+    --color-light-success: #e6f4ea;
+    --color-success: #4caf50;
+    --color-light-warning: #fff4e5;
+    --color-warning: #ff9800;
+    --color-light-error: #fdeded;
+    --color-error: #f44336;
+    --color-info: #2196f3;
+
+    --font-family-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-secondary: 'Georgia', 'Times New Roman', Times, serif;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+
+    --radius-sm: 0.125rem;
+    --radius-base: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-full: 9999px;
+
+    --scale-light: 0.95;
+    --scale-strong: 1.05;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

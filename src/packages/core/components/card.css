@@ -1,0 +1,20 @@
+.card {
+    background-color: var(--color-neutral-0);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-base);
+    padding: var(--space-6);
+    transition: box-shadow var(--transition-base);
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.card-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-4);
+}
+
+.card-content {
+    color: var(--color-neutral-700);
+}
