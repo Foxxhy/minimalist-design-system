@@ -1,0 +1,89 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-base);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: transform var(--transition-base), background-color var(--transition-base), box-shadow var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:focus {
+  outline: none; /* Supprimer le contour par défaut */
+  box-shadow: 0 0 0 4px var(--color-primary-100);
+}
+
+.btn-primary {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-600);
+}
+
+.btn-primary:active {
+  background-color: var(--color-primary-700);
+  transform: scale(0.95); /* Réduction de taille sur clic */
+}
+
+.btn-secondary {
+  background-color: var(--color-primary-100);
+  color: var(--color-primary-900);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary-200);
+}
+
+.btn-secondary:active {
+  background-color: var(--color-primary-300);
+  transform: scale(0.95);
+}
+
+.btn-outline {
+  border: 1px solid var(--color-primary-300);
+  background-color: transparent;
+  color: var(--color-primary-700);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary-50);
+  border-color: var(--color-primary-400);
+}
+
+.btn-outline:active {
+  transform: scale(0.95);
+}
+
+/* Forms */
+
+.btn-submit {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.btn-submit:active {
+  /* background-color: #388e3c; */
+  transform: scale(0.95);
+}
+
+.btn-reset {
+  background-color: var(--color-warning);
+  color: white;
+}
+
+.btn-reset:active {
+  transform: scale(0.95);
+}
