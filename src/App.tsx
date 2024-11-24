@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './css/index.css'
 import './App.css'
 
